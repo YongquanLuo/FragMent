@@ -6,7 +6,7 @@ The accompanying paper can be found [here](http://adsabs.harvard.edu/abs/2019arX
 While the code was designed to investigate filament fragmentation the functions are general and may be used for any set of 2D points to study more general cases of fragmentation.
 
 # Using the code
-This code is Windows version of FragMent(https://github.com/xinglunju/FragMent). The C portion of the module has been compile as FragMent_C.dll file. If you want to modify the module, you should edit the FragMent_C.c and then run the following command in Windows powershell:
+This code is Windows version of FragMent(https://github.com/xinglunju/FragMent). The C portion of the module has been compiled as FragMent_C.dll file. If you want to modify the module, you should edit the FragMent_C.c and then run the following command in Windows powershell:
 ```
 gcc -shared -o FragMent_C.dll FragMent_C.c -g
 ```
